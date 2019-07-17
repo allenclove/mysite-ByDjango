@@ -110,7 +110,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 #这个部署到pythonanywhere的时候要写
-#STATIC_ROOT = os.path.join(BASE_DIR,'static')
+STATIC_ROOT = os.path.join(BASE_DIR,'static_collected')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
