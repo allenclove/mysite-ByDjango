@@ -1,4 +1,4 @@
 db.sqlite3
 settings.py
-__pycache__/
-music/
+__pycache__/*
+music/*
