@@ -51,5 +51,5 @@ EMAIL_PORT = 25
 EMAIL_HOST_USER = '1393623445@qq.com'
 EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']  #授权码
 EMAIL_SUBJECT_PREFIX = '[allenc的博客]'
-EMAIL_USE_SSL = True  #与SMTP服务器通信时，是否启动SSL链接(安全链接)
+EMAIL_USE_TLS = True  #与SMTP服务器通信时，是否启动TLS链接(安全链接)
 
