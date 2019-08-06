@@ -44,7 +44,7 @@ def get_blog_list_common_data(request, blogs_all_list):
 	return context
 
 def blog_list(request):
-	blogs_all_list = Blog.objects.filter()
+	blogs_all_list = Blog.objects.filter(blog_type__is_display=True)
 	context = get_blog_list_common_data(request, blogs_all_list)
 	return render(request, 'blog/blog_list.html',context)
 

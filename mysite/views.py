@@ -7,7 +7,6 @@ from django.core.cache import cache
 from django.urls import reverse
 from read_statistics.utils import get_seven_days_read_data, get_today_hot_data, get_yesterday_hot_data
 from blog.models import Blog
-from django.http import HttpResponse
 
 
 def get_7_days_hot_blogs():
