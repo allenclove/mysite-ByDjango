@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+    allenc的网站|首页
+{% endblock %}
+
+{% block header_extends %}
+	<link rel="stylesheet" href="{% static 'game.css' %}">
+	<script src="//cdn.hcharts.cn/highcharts/highcharts.js"></script>
+{% endblock %}
+
+{% block nav_game_active %}active{% endblock %}
+
+{% block content %}
+	<h3 class="home-content">玩玩小游戏吧,放松一下</h3>
+    <div class="hot-data">
+	<script src="https://down.52pojie.cn/.fancyindex/js/phaser.min.js"></script>
+    <script src="https://down.52pojie.cn/.fancyindex/js/catch-the-cat.js">
+    </script>
+    <div id="catch-the-cat"></div>
+    <script>window.game=new CatchTheCatGame({w:15,h:15,r:22,backgroundColor:16777215,parent:"catch-the-cat",statusBarAlign:"center",credit:" "})</script></DIV><DIV class="style6" align="center"><P class="style7"></P><P class="style8"><SPAN class="style10">
+    </div>
+{% endblock %}
