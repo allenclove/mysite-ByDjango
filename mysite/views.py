@@ -13,7 +13,7 @@ def get_7_days_hot_blogs():
 	today = timezone.now().date()
 	date = today - datetime.timedelta(days=7)
 	blogs = Blog.objects \
-				.filter(read_details__date__lt=today, read_details__date__gte=date) \
+				.filter(blog_type__is_display=True, read_details__date__lt=today, read_details__date__gte=date) \
 				.values('id', 'title') \
 				.annotate(read_num_sum=Sum('read_details__read_num')) \
 				.order_by('-read_num_sum')
@@ -29,12 +29,16 @@ def home(request):
 		hot_blogs_for_7_days = get_7_days_hot_blogs()
 		cache.set('hot_blogs_for_7_days', hot_blogs_for_7_days, 3600)
 
+	#设置不显示的博客名单
+	blogs_is_display = Blog.objects.filter(blog_type__is_display=True)
+
 	context = {}
 	context['dates'] = dates
 	context['read_nums'] = read_nums
 	context['today_hot_data'] = get_today_hot_data(blog_content_type)
 	context['yesterday_hot_data'] = get_yesterday_hot_data(blog_content_type)
 	context['hot_blogs_for_7_days'] = get_7_days_hot_blogs()
+	context['blogs_is_display'] = blogs_is_display
 	return render(request, 'home.html', context)
 
 def game(request):

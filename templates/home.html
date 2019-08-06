@@ -20,7 +20,11 @@
         <h3>今天热门博客</h3>
         <ul>
             {% for hot_data in today_hot_data %}
-                <li><a href="{% url 'blog_detail' hot_data.content_object.pk %}">{{ hot_data.content_object.title }}</a>({{ hot_data.read_num }})</li>
+                {% for is_display_blog in blogs_is_display %}
+                    {% if hot_data.content_object.title == is_display_blog.title %}
+                    <li><a href="{% url 'blog_detail' hot_data.content_object.pk %}">{{ hot_data.content_object.title }}</a>({{ hot_data.read_num }})</li>
+                {% endif %}
+                {% endfor %}
             {% empty %}
                 <li>今天暂时没有热门博客</li>
             {% endfor %}
@@ -30,7 +34,11 @@
         <h3>昨天热门博客</h3>
         <ul>
             {% for hot_data in yesterday_hot_data %}
+                {% for is_display_blog in blogs_is_display %}
+                    {% if hot_data.content_object.title == is_display_blog.title %}
                 <li><a href="{% url 'blog_detail' hot_data.content_object.pk %}">{{ hot_data.content_object.title }}</a>({{ hot_data.read_num }})</li>
+                {% endif %}
+                {% endfor %}
             {% empty %}
                 <li>昨天暂时没有热门博客</li>
             {% endfor %}
