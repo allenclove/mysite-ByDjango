@@ -102,7 +102,9 @@
                             {% for blog_date,blog_count in blog_dates.items %}
                                 <li>
                                     <a href="{% url 'blogs_with_date' blog_date.year blog_date.month %}">
-                                        {{ blog_date|date:"Y年m月" }} ({{ blog_count }})
+                                        {% if blog_count > 0 %}
+                                            {{ blog_date|date:"Y年m月" }} ({{ blog_count }})
+                                        {% endif %}
                                     </a>
                                 </li>
                             {% endfor %}
