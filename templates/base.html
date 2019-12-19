@@ -16,7 +16,7 @@
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="{% url 'home' %}">个人博客网站</a>
+                <a class="navbar-brand" href="{% url 'home' %}">ALLENC</a>
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -29,14 +29,14 @@
                         <a href="{% url 'home' %}">首页</a>
                     </li>
                     <li class="{% block nav_blog_active %}{% endblock %}">
-                        <a href="{% url 'blog_list' %}">博客</a>
+                        <a href="{% url 'blog_list' %}">文章</a>
                     </li>
                     <li class="{% block nav_game_active %}{% endblock %}">
                         <a href="{% url 'game' %}">小游戏</a>
                     </li>
                 </ul>
 
-                <ul class="nav navbar-nav navbar-right">
+                <!--<ul class="nav navbar-nav navbar-right">
                     {% if not user.is_authenticated %}
                         <li>
                             <a href="{% url 'login' %}?from={{ request.get_full_path }}">登录</a>
@@ -64,7 +64,7 @@
                             </ul>
                         </li>
                     {% endif %}
-                </ul>
+                </ul>-->
             </div>
         </div>
     </div>
@@ -74,8 +74,9 @@
     <!-- footer -->
     <div class="footer">
         <div class="website-info">
-        	<p>粤ICP备19089019号 Copyright©2019 alenc.cn 版权所有</p>
-        	<p>意见反馈或联系我（1393623445@qq.com）| <script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1277982785&web_id=1277982785"></script></p>
+        	<p><a href="http://www.beian.miit.gov.cn">粤ICP备19089019号</a> Copyright©2019 alenc.cn 版权所有</p>
+        	<p>意见反馈或联系我（1393623445@qq.com）</p>
+            <!--<p><script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1277982785&web_id=1277982785"></script></p>-->
         </div>
     </div>
 

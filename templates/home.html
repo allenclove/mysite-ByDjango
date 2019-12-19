@@ -17,7 +17,7 @@
 	<!-- 图表容器 DOM -->
     <div id="container"></div>
     <div class="hot-data">
-        <h3>今天热门博客</h3>
+        <h3>今天热门文章</h3>
         <ul>
             {% for hot_data in today_hot_data %}
                 {% for is_display_blog in blogs_is_display %}
@@ -26,12 +26,12 @@
                 {% endif %}
                 {% endfor %}
             {% empty %}
-                <li>今天暂时没有热门博客</li>
+                <li>今天暂时没有热门文章</li>
             {% endfor %}
         </ul>
     </div>
     <div class="hot-data">
-        <h3>昨天热门博客</h3>
+        <h3>昨天热门文章</h3>
         <ul>
             {% for hot_data in yesterday_hot_data %}
                 {% for is_display_blog in blogs_is_display %}
@@ -40,17 +40,17 @@
                 {% endif %}
                 {% endfor %}
             {% empty %}
-                <li>昨天暂时没有热门博客</li>
+                <li>昨天暂时没有热门文章</li>
             {% endfor %}
         </ul>
     </div>
     <div class="hot-data">
-        <h3>7天热门博客</h3>
+        <h3>7天热门文章</h3>
         <ul>
             {% for hot_blog in hot_blogs_for_7_days %}
                 <li><a href="{% url 'blog_detail' hot_blog.id %}">{{ hot_blog.title }}</a>({{ hot_blog.read_num_sum }})</li>
             {% empty %}
-                <li>7天内暂时没有热门博客</li>
+                <li>7天内暂时没有热门文章</li>
             {% endfor %}
         </ul>
     </div>
