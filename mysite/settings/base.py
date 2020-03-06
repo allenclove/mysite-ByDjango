@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'comment',
     'likes',
     'user',
+    'skin_box',
 ]
 
 MIDDLEWARE = [

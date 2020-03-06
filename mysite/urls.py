@@ -20,14 +20,17 @@ from django.conf.urls.static import static
 from . import views
 
 urlpatterns = [
-    path('', views.home, name='home'),
+    #隐藏主页
+    #path('', views.home, name='home'),
+    path('home/', views.home, name='home'),
     path('admin/', admin.site.urls),
     path('ckeditor', include('ckeditor_uploader.urls')),
     path('blog/',include('blog.urls')),
     path('comment/',include('comment.urls')),
     path('likes/',include('likes.urls')),
     path('user/', include('user.urls')),
-    path('game', views.game, name='game')
+    path('game', views.game, name='game'),
+    path('skin_box/', include('skin_box.urls'))
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
