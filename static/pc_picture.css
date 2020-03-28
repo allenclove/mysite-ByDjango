@@ -1,0 +1,1873 @@
+.hide {
+    display: none
+}
+
+i {
+    font-style: normal
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 65px
+    }
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 65px
+    }
+}
+
+@media (min-width: 998) {
+    html {
+        font-size: 70px
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 75px
+    }
+}
+
+@media (min-width: 1400px) {
+    html {
+        font-size: 90px
+    }
+}
+
+@media (min-width: 1600px) {
+    html {
+        font-size: 100px
+    }
+}
+
+.main {
+    width: 14.4rem;
+    min-width: 1000px
+}
+
+header {
+    height: .8rem;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    background: #fff;
+    min-width: 1000px
+}
+
+.headerchange {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #131313;
+    -webkit-transition: ease .3s all;
+    transition: ease .3s all;
+    z-index: 9999
+}
+
+.headerchangeMo {
+    background: #000;
+    -webkit-transition: ease .3s all;
+    transition: ease .3s all
+}
+
+.head {
+    height: 100%
+}
+
+.head .logo {
+    margin-right: .45rem;
+    float: left;
+    height: 100%;
+    line-height: .8rem;
+    width: 1.52rem;
+    position: relative
+}
+
+.head .logo a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative
+}
+
+.head .logo img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+    max-width: 100%
+}
+
+.head .logo #second-logo {
+    display: none
+}
+
+.change-tab {
+    display: none
+}
+
+.head .nav {
+    height: 100%;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.head .item {
+    position: relative;
+    height: 100%;
+    font-size: .14rem;
+    text-align: center;
+    line-height: .8rem;
+    float: left;
+    margin-right: .2rem
+}
+
+.head .item:last-child {
+    margin-right: 0
+}
+
+.head .item:last-child a {
+    padding: 0;
+    display: inline-block;
+    width: 1.4rem;
+    font-size: .12rem;
+    line-height: .3rem;
+    height: .3rem;
+    background: #f5c61e;
+    color: #000;
+    border-radius: .15rem;
+    text-align: center
+}
+
+.head .item > a {
+    display: block;
+    padding: 0 .24rem;
+    height: 100%;
+    color: #131313
+}
+
+.head .item .on {
+    color: #000
+}
+
+.head .item > a .iconfont {
+    vertical-align: top;
+    display: inline-block;
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0);
+    -webkit-transition: .25s;
+    transition: .25s
+}
+
+.head .item:hover > a {
+    background: #f4f4f4
+}
+
+.head .item:hover > .changefc {
+    background: #000
+}
+
+.head .item:last-child:hover a {
+    background: #f5c61e
+}
+
+.head .item:hover .iconfont {
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+    -webkit-transition: .25s;
+    transition: .25s
+}
+
+.head .item:hover .select {
+    display: block
+}
+
+.head .item .select a {
+    text-align: left;
+    padding-left: .24rem;
+    font-size: .14rem;
+    color: #000;
+    line-height: .24rem;
+    display: block;
+    margin-bottom: .1rem
+}
+
+.head .item .select a:hover {
+    background: #f5c71e
+}
+
+.head .item .select a:last-child {
+    border-bottom: none;
+    margin: 0
+}
+
+.head .item .select {
+    z-index: 999;
+    display: none;
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top: .8rem;
+    -webkit-box-shadow: 0 .04rem .12rem 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 .04rem .12rem 0 rgba(0, 0, 0, .2);
+    padding: .1rem 0;
+    border-radius: 0 0 .04rem .04rem
+}
+
+.head .item .underline {
+    text-decoration: underline
+}
+
+.head .item .changefc {
+    color: #fff
+}
+
+.head .item .changebc {
+    color: #f3c71e
+}
+
+.head .lang {
+    height: 100%;
+    float: right;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.head .iconfb {
+    display: inline-block;
+    width: .2rem;
+    height: .16rem;
+    background: url(https://res.ldmnq.com/gw/assets/images/05/icon-down-black.png) no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+    margin-right: .06rem
+}
+
+.head .Mo {
+    display: none
+}
+
+.head .iconfbChange {
+    background: url(https://res.ldmnq.com/gw/assets/images/05/icon-down-white.png) no-repeat;
+    background-size: 100% 100%
+}
+
+.head .choice {
+    width: 1.4rem;
+    height: .3rem;
+    position: relative
+}
+
+.head .show {
+    padding: 0 .2rem;
+    width: .98rem;
+    height: .28rem;
+    border: .01rem solid #000;
+    border-radius: .15rem;
+    background: #fff;
+    font-size: .14rem;
+    color: #000;
+    line-height: .3rem;
+    position: relative;
+    z-index: 100
+}
+
+.head .choice .right {
+    float: right;
+    font-size: .12rem
+}
+
+.head .choice .options {
+    display: none;
+    width: 1.4rem;
+    position: absolute;
+    left: 0;
+    top: .14rem;
+    background: #fff;
+    font-size: .14rem;
+    padding-top: .3rem;
+    padding-bottom: .15rem;
+    z-index: 99;
+    -webkit-box-shadow: 0 0 .05rem #d3d3d3;
+    box-shadow: 0 0 .05rem #d3d3d3
+}
+
+.head .choice:hover .options {
+    display: block
+}
+
+.head .choice .options a {
+    font-size: .14rem;
+    color: #000;
+    line-height: .24rem;
+    padding-left: .2rem;
+    display: block
+}
+
+.head .choice .options a:hover {
+    background: #f5c71e
+}
+
+.head .choiceChange {
+    border-color: #fff;
+    color: #fff;
+    background: #000
+}
+
+.head .download-ldplayer {
+    height: 100%;
+    width: 1.7rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    float: left
+}
+
+.head .download-ldplayer .btnDownload {
+    width: 1.7rem;
+    font-size: .12rem;
+    line-height: .3rem;
+    background: #f5c61e;
+    color: #000;
+    border-radius: .15rem;
+    text-align: center
+}
+
+.head .download-ldplayer .hide {
+    display: none
+}
+
+.head .btn-download {
+    float: left;
+    display: block;
+    width: 1.7rem;
+    font-size: .12rem;
+    line-height: .3rem;
+    background: #f5c61e;
+    color: #000;
+    border-radius: .15rem;
+    text-align: center
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    max-width: 19.2rem;
+    margin: 0 auto
+}
+
+.banner .phone-btn {
+    display: none;
+    width: 100%;
+    border-radius: 40px;
+    width: 3.1rem;
+    height: .8rem;
+    line-height: .8rem;
+    text-align: center;
+    font-size: .24em;
+    font-weight: 600;
+    margin-bottom: .2rem;
+    background-color: #f5c61e;
+    color: #000
+}
+
+#swiper-top {
+    margin-left: 0;
+    width: 100%;
+    height: 5.8rem
+}
+
+.swiper-slide .bg {
+    padding-left: 1rem;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 14.4rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.swiper-slide .bg .banner-title1 {
+    padding-top: 1.4rem;
+    width: 6rem;
+    font-size: .6em;
+    line-height: .6rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: .2rem
+}
+
+.swiper-slide .bg .banner-title1 p {
+    margin-bottom: .1rem;
+    font-size: .25rem;
+    font-weight: 500
+}
+
+.swiper-slide .bg .banner-title2 {
+    font-size: .24em;
+    color: #fff;
+    margin-bottom: .5rem
+}
+
+.swiper-slide .bg .smallicon {
+    display: block;
+    width: 3rem;
+    height: .4rem
+}
+
+.bannerImg1 {
+    background-image: url(./picture/banner1.png);
+    background-size: 100% 100%
+}
+
+.bannerImg2 {
+    background-image: url(./picture/banner1.png);
+    background-size: 100% 100%
+}
+
+.bannerImg3 {
+    background-image: url(./picture/banner1.png);
+    background-size: 100% 100%
+}
+
+.bannerImg4 {
+    background-image: url(./picture/banner1.png);
+    background-size: 100% 100%
+}
+
+.bannerImg {
+    width: 100%;
+    height: 100%
+}
+
+.banner .btn {
+    width: 100%;
+    position: absolute;
+    bottom: .5rem;
+    left: 50%;
+    max-width: 14.4rem;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding-left: 1rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1000
+}
+
+.banner .btn .banner-on {
+    outline: 0;
+    cursor: pointer;
+    float: left;
+    margin-left: .1rem;
+    width: .3rem;
+    height: .06rem;
+    border-radius: .3rem;
+    background: #a0a0a0;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all
+}
+
+.banner .btn .banner-on:first-child {
+    margin: 0
+}
+
+.banner .btn .banner-active {
+    width: .6rem;
+    background: #f5c61e;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all
+}
+
+.banner .group ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.banner .group li {
+    width: 3.1rem;
+    margin-right: .2rem
+}
+
+.banner .group .item {
+    width: 2.2rem
+}
+
+.banner .group .btnDownload {
+    display: block;
+    width: 100%;
+    border-radius: 40px;
+    height: .8rem;
+    text-align: center;
+    font-size: .24em;
+    font-weight: 600;
+    margin-bottom: .2rem;
+    background-color: #f5c61e;
+    color: #000
+}
+
+.banner .group .item .btnDownload {
+    height: .66rem
+}
+
+.banner .group .btnDownload .big {
+    line-height: .8rem;
+    height: .8rem;
+    font-size: .26rem
+}
+
+.banner .group .item .big {
+    padding-top: .15rem;
+    height: .2rem;
+    line-height: .2rem;
+    font-size: .2rem;
+    margin-bottom: .05rem
+}
+
+.banner .group .item .small {
+    font-size: .14rem;
+    color: #786319;
+    text-align: center
+}
+
+.banner .group .btnDownload .small {
+    color: #786319;
+    font-size: .14rem;
+    font-weight: 500
+}
+
+.banner .group .faqmsg {
+    text-align: center;
+    font-size: .14rem;
+    color: #fff
+}
+
+.banner .group .faqmsg a {
+    color: #fff
+}
+
+.banner .group .faqmsg .google {
+    color: #fff;
+    margin-left: .15rem
+}
+
+.pdt {
+    padding-top: 1.2rem
+}
+
+.aboutLD {
+    min-height: 4.65rem;
+    margin-bottom: 1.2rem;
+    position: relative
+}
+
+.aboutLD .top {
+    min-height: 1.85rem;
+    padding-left: 6.64rem;
+    padding-top: .5rem
+}
+
+.aboutLD .top .msg {
+    font-size: .14rem;
+    line-height: .24rem;
+    color: #696969;
+    padding-top: .16rem;
+    text-align: justify
+}
+
+.aboutLD .bottom {
+    min-height: 2.3rem;
+    padding: 1.15rem .42rem 0 .42rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(https://res.ldmnq.com/gw/assets/images/05/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-line-pack: center;
+    align-content: center
+}
+
+.aboutLD .bottom .smallbtn .img {
+    float: left;
+    width: .8rem;
+    height: .8rem;
+    margin-right: .2rem
+}
+
+.aboutLD .bottom .smallbtn .msg {
+    padding-top: .16rem;
+    float: left
+}
+
+.aboutLD .bottom .smallbtn .big {
+    width: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .22rem;
+    font-weight: 600
+}
+
+.aboutLD .bottom .smallbtn .small {
+    font-size: .16rem;
+    color: #646464;
+    margin-top: .06rem
+}
+
+.aboutLD .radio {
+    width: 5.6rem;
+    height: 3.15rem;
+    position: absolute;
+    top: 0;
+    left: .5rem
+}
+
+.aboutLD .video-js {
+    width: 100%;
+    height: 100%
+}
+
+.video-js .vjs-tech {
+    outline: 0
+}
+
+.video-js .vjs-big-play-button {
+    background: #f5c61e;
+    width: .6rem;
+    height: .6rem;
+    color: #000;
+    border-radius: 50%;
+    line-height: .6rem;
+    margin: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: none
+}
+
+.aboutLD .video {
+    max-width: 100%;
+    height: 100%
+}
+
+.title {
+    border-left: 6px solid #fbc421;
+    padding-left: .12rem;
+    font-size: .26rem;
+    line-height: .3rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: .5rem
+}
+
+.title .readmore {
+    display: block;
+    float: right;
+    width: .8rem;
+    height: .28rem;
+    border: 1px solid #000;
+    border-radius: .15rem;
+    padding-left: .38rem;
+    line-height: .28rem;
+    font-size: .16rem;
+    color: #000;
+    position: relative;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all
+}
+
+.title .readmore i {
+    line-height: .28rem;
+    position: absolute;
+    right: .05rem;
+    opacity: 0;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all
+}
+
+.title .readmore:hover {
+    padding-left: .2rem;
+    width: 1rem;
+    background: #f5c61e;
+    border-color: #f5c61e;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all
+}
+
+.title .readmore:hover i {
+    display: inline;
+    opacity: 1;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all
+}
+
+.title .readmore:hover .arrow {
+    left: .9rem;
+    height: .04rem;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    opacity: 0
+}
+
+.title .arrow {
+    position: absolute;
+    top: 50%;
+    left: -.22rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: .46rem;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all
+}
+
+.title .readmoreMo {
+    font-size: .2rem;
+    line-height: .3rem;
+    color: #000;
+    float: right;
+    display: none;
+    font-weight: 500
+}
+
+.hotFAQ .list {
+    margin-bottom: .3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.hotFAQ .item {
+    font-size: 12px;
+    width: 31.24444%
+}
+
+.hotFAQ .item a {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    width: 100%
+}
+
+.hotFAQ .item img {
+    width: 100%;
+    height: 2.3rem
+}
+
+.hotFAQ .item .bbs-ad-mask {
+    width: 100%;
+    font-size: .16rem;
+    line-height: .3rem;
+    color: #fff;
+    position: absolute;
+    bottom: -.3rem;
+    left: 0;
+    background: rgba(0, 0, 0, .6);
+    text-align: center;
+    -webkit-transition: ease .2s all;
+    transition: ease .2s all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.hotFAQ .item:hover .bbs-ad-mask {
+    bottom: .1rem;
+    -webkit-transition: ease .2s all;
+    transition: ease .2s all
+}
+
+.hotfaq-banner {
+    position: relative
+}
+
+.hotfaq-phone {
+    display: none
+}
+
+.hotFAQ .item .introduction {
+    font-size: .2rem;
+    line-height: .3rem;
+    font-weight: 600;
+    word-break: break-all;
+    color: #000;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.hotfaq-banner .swiper-container {
+    width: 13.3rem;
+    height: 3.3rem;
+    margin-bottom: .4rem
+}
+
+.hotfaq-banner .swiper-container a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: .45rem .3rem 0;
+    position: relative;
+    -webkit-transition: ease .3s all;
+    transition: ease .3s all
+}
+
+.hotfaq-banner .head-title {
+    font-size: .16rem;
+    line-height: .24rem;
+    height: .48rem;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: .2rem
+}
+
+.hotfaq-banner .msg {
+    font-size: .12rem;
+    line-height: .22rem;
+    color: #666
+}
+
+.hotfaq-banner .btn {
+    position: absolute;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 .35rem;
+    bottom: .5rem;
+    left: 0
+}
+
+.hotfaq-banner .icon-btn {
+    width: .3rem;
+    height: .3rem;
+    background-image: url(https://res.ldmnq.com/gw/assets/images/05/right-white.png);
+    background-size: 100% 100%
+}
+
+.hotfaq-banner .swiper-container a:hover {
+    background-color: #f5c61e;
+    -webkit-transition: ease .3s all;
+    transition: ease .3s all
+}
+
+.hotfaq-banner .swiper-container a:hover .msg {
+    -webkit-transition: ease .3s all;
+    transition: ease .3s all;
+    color: #000
+}
+
+.hotfaq-banner .swiper-container a:hover .icon-btn {
+    background-image: url(https://res.ldmnq.com/gw/assets/images/05/right.png);
+    background-size: 100% 100%
+}
+
+.hotfaq-banner .swiper-container a:hover .date .year {
+    color: #000;
+    -webkit-transition: ease .3s all;
+    transition: ease .3s all
+}
+
+.hotfaq-banner .swiper-container a:hover .date .day {
+    color: #000;
+    -webkit-transition: ease .3s all;
+    transition: ease .3s all
+}
+
+.hotfaq-banner .pagination {
+    margin: 0
+}
+
+.hotfaq-banner .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.hotfaq-banner .btn .year {
+    font-size: .1rem;
+    color: #999;
+    margin-bottom: .05rem
+}
+
+.hotfaq-banner .btn .day {
+    font-size: .14rem;
+    color: #666
+}
+
+.hotfaq-banner .pagination {
+    margin-bottom: .8rem
+}
+
+.bbs-content {
+    height: 4.8rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: .05rem solid #eaeaea;
+    margin-bottom: 1.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: row-reverse;
+    flex-flow: row-reverse
+}
+
+.bbs-content .left {
+    width: 7.55rem
+}
+
+.bbs-content .left .tabs {
+    padding-left: .15rem;
+    height: .75rem;
+    border-bottom: .01rem solid #f3f3f3
+}
+
+.bbs-content .left .tab {
+    cursor: pointer;
+    float: left;
+    line-height: .74rem;
+    font-size: .2rem;
+    color: #999;
+    margin: 0 .3rem;
+    font-weight: 600
+}
+
+.bbs-content .left .on {
+    color: #000;
+    border-bottom: .03rem solid #f5c61e
+}
+
+.bbs-content .left .tab-content {
+    display: none;
+    width: 100%;
+    height: 3.95rem;
+    padding: .2rem .2rem 0 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.bbs-content .left .show {
+    display: block
+}
+
+.bbs-content .left .tab-one {
+    display: block;
+    -webkit-transition: ease .1s all;
+    transition: ease .1s all
+}
+
+.bbs-content .left .tab-one a {
+    display: block;
+    margin-left: .45rem;
+    margin-right: .2rem;
+    border-bottom: 1px solid #f3f3f3;
+    font-size: .16rem;
+    line-height: .7rem;
+    color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-transition: ease .1s all;
+    transition: ease .1s all
+}
+
+.bbs-content .left .tab-one a .msg {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 5rem
+}
+
+.bbs-content .left .tab-one:nth-child(5) a {
+    border-bottom: transparent
+}
+
+.bbs-content .left .tab-one:hover {
+    background-color: #f5c61e;
+    -webkit-transition: ease .1s all;
+    transition: ease .1s all
+}
+
+.bbs-content .left .tab-one:hover a {
+    border-bottom: 1px solid #f5c61e;
+    -webkit-transition: ease .1s all;
+    transition: ease .1s all
+}
+
+.bbs-content .left .tab-one .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #b6b6b6
+}
+
+.bbs-content .left .tab-one:hover .time {
+    color: #000
+}
+
+.bbs-content .left .tab-one .btn {
+    margin-left: .3rem;
+    width: .3rem;
+    height: .3rem;
+    background-image: url(https://res.ldmnq.com/gw/assets/images/05/right-white.png);
+    background-size: 100% 100%
+}
+
+.bbs-content .left .tab-one:hover .btn {
+    background-image: url(https://res.ldmnq.com/gw/assets/images/05/right.png);
+    background-size: 100% 100%
+}
+
+.bbs-content .right {
+    width: 6.4rem;
+    height: 3.6rem;
+    padding: .4rem .35rem 0 0
+}
+
+.bbs-content .right .swiper-container {
+    margin-bottom: .2rem;
+    height: 100%
+}
+
+.bbs-content .right .swiper-container a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+
+.bbs-content .right .swiper-container img {
+    width: 100%;
+    height: 100%
+}
+
+.bbs-content .right .swiper-container .bbs-title {
+    font-size: .16rem;
+    text-align: center;
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    line-height: .36rem;
+    color: #fff;
+    position: absolute;
+    bottom: .2rem;
+    -webkit-transition: ease .2s all;
+    transition: ease .2s all;
+    left: 0
+}
+
+.bbs-content .right .page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.popularGame .swiper-container {
+    width: 92.7083333%;
+    height: 3.2rem
+}
+
+.popularGame .swiper-container .swiper-slide {
+    background: #e4e4e4;
+    position: relative
+}
+
+.popularGame .swiper-container .swiper-slide a {
+    color: #000;
+    display: block;
+    height: 100%;
+    -webkit-transition: ease .3s all;
+    transition: ease .3s all
+}
+
+.popularGame .swiper-container .swiper-slide:hover {
+    background: #f5c61e;
+    -webkit-transition: ease .3s all;
+    transition: ease .3s all
+}
+
+.popularGame .swiper-container .swiper-slide:hover .btn {
+    border-color: #000;
+    background: #000;
+    color: #f5c61e;
+    -webkit-transition: ease .3s all;
+    transition: ease .3s all
+}
+
+.popularGame .popularGameBanner {
+    position: relative
+}
+
+.pagination {
+    height: .2rem;
+    display: block;
+    margin: .4rem 0 .7rem 0;
+    position: relative
+}
+
+.pagination .page {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+.buttonPrevcom {
+    height: .3rem;
+    width: .3rem;
+    position: absolute;
+    top: 1.45rem;
+    cursor: pointer;
+    outline: 0
+}
+
+.button-prev {
+    left: 0;
+    background: url(https://res.ldmnq.com/gw/assets/images/05/left.png) no-repeat;
+    background-size: 100% 100%
+}
+
+.button-next {
+    right: 0;
+    background: url(https://res.ldmnq.com/gw/assets/images/05/right.png) no-repeat;
+    background-size: 100% 100%
+}
+
+.my-bulletbig {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 8px;
+    position: relative;
+    outline: 0;
+    cursor: pointer
+}
+
+.my-bulletsmall {
+    display: block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #acacac;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.my-bullet-active {
+    border: 1px solid #000
+}
+
+.my-bullet-active .my-bulletsmall {
+    background: #000
+}
+
+.popularGame .popularGameBanner .img {
+    width: 100%;
+    height: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.popularGame .popularGameBanner .img .goDetail {
+    width: 1rem;
+    height: 1rem;
+    border-radius: .2rem
+}
+
+.popularGame .popularGameBanner .msg {
+    font-size: .16rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: .2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    padding: 0 .2rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.popularGame .popularGameBanner .border {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #000;
+    margin: 0 auto
+}
+
+.popularGame .popularGameBanner .btngroup {
+    position: absolute;
+    top: 2.2rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+.popularGame .popularGameBanner .btn {
+    display: block;
+    width: 1.2rem;
+    font-size: .12rem;
+    color: #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #9a9a9a;
+    text-align: center;
+    line-height: .28rem;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: .1rem
+}
+
+.player-feedback .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.player-feedback .content .renwu {
+    height: 3.8rem
+}
+
+.player-feedback .content .msg {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-left: .15rem;
+    font-size: 12px
+}
+
+.player-feedback .content .msg p {
+    font-size: .16rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: .3rem;
+    font-weight: 600
+}
+
+.player-feedback .content .msg .wenti {
+    color: #d90000;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.player-feedback .content .comment-show {
+    height: 3rem;
+    overflow-y: scroll;
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: .3rem 0 .3rem .4rem;
+    margin-bottom: .3rem
+}
+
+.player-feedback .content .comment-content {
+    margin-bottom: .2rem
+}
+
+.player-feedback .content .time {
+    display: block;
+    font-size: .12rem;
+    color: #b2b2b2;
+    margin-bottom: .1rem
+}
+
+.player-feedback .content .time:hover {
+    color: #f5c61e
+}
+
+.player-feedback .content .QA {
+    font-size: .12rem;
+    color: #666;
+    margin-bottom: .1rem
+}
+
+.player-feedback .content .answer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.player-feedback .content .QA p {
+    font-size: .12rem;
+    line-height: .2rem;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0
+}
+
+.player-feedback .content .QA span {
+    line-height: .2rem
+}
+
+.player-feedback .content .QA p img {
+    display: none
+}
+
+.player-feedback .content .more {
+    cursor: pointer;
+    font-size: .2rem
+}
+
+.player-feedback .content .sumbit {
+    font-size: .2rem;
+    width: 2rem;
+    height: .5rem;
+    background-color: #f5c61e;
+    font-weight: 600;
+    border-radius: .25rem;
+    outline: 0;
+    cursor: pointer
+}
+
+.player-feedback .content .tip {
+    font-size: .14rem;
+    color: #b6b6b6;
+    margin-left: .3rem
+}
+
+.player-feedback .content .tip::before {
+    content: '*';
+    color: #ff3f3f
+}
+
+.tan {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    z-index: 9999
+}
+
+.tan .com {
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: .5rem;
+    background: #fff
+}
+
+.tan .fq h1 {
+    font-size: .28rem;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: .3rem
+}
+
+.tan .fq .content {
+    width: 7rem;
+    height: 5.16rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4
+}
+
+.tan .cancle-fq {
+    position: absolute;
+    cursor: pointer;
+    top: .2rem;
+    right: .2rem
+}
+
+.tan .opinion p {
+    font-size: .26rem;
+    margin-bottom: .3rem
+}
+
+.tan .opinion span {
+    font-size: .14rem;
+    color: #999
+}
+
+.tan .opinion .comment-input {
+    width: 7rem;
+    height: 2.05rem;
+    background-color: #f4f4f4;
+    font-size: .14rem;
+    padding: .2rem;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #ddd;
+    resize: none;
+    margin-bottom: .3rem
+}
+
+.tan .opinion .contact-input {
+    width: 7rem;
+    resize: none;
+    font-size: .14rem;
+    padding: .16rem;
+    background: 0 0;
+    border: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    outline: 0;
+    margin-bottom: .3rem
+}
+
+.tan .opinion .btn {
+    display: block;
+    width: 2.5rem;
+    height: .6rem;
+    background: #f5c61e;
+    font-size: .24rem;
+    border-radius: .3rem;
+    font-weight: 600;
+    margin: 0 auto;
+    outline: 0;
+    cursor: pointer
+}
+
+.side {
+    display: none;
+    position: fixed;
+    width: .5rem;
+    bottom: 4.5rem;
+    right: .3rem;
+    z-index: 10
+}
+
+.side img {
+    display: block
+}
+
+.side .download {
+    width: .5rem;
+    height: .5rem;
+    margin-bottom: .1rem;
+    position: relative
+}
+
+.side .download:hover .erweima-tan {
+    display: block
+}
+
+.side .download .app-download {
+    width: .5rem;
+    height: .5rem;
+    cursor: pointer;
+    border-radius: .15rem
+}
+
+.side .download .erweima-tan {
+    display: none;
+    position: absolute;
+    top: -.1rem;
+    left: -1.4rem;
+    width: 1.3rem;
+    height: 1.4rem
+}
+
+.side .download .erweima-tan:hover {
+    display: block
+}
+
+.toTop {
+    width: .5rem;
+    height: .5rem;
+    cursor: pointer;
+    border-radius: .15rem
+}
+
+.aside-ld-download {
+    position: fixed;
+    right: .6rem;
+    bottom: 1.6rem;
+    z-index: 10
+}
+
+.aside-ld-download .bg {
+    width: 2.16rem;
+    height: 2.16rem;
+    background: url(https://res.ldmnq.com/gw/assets/images/05/aside/aside-bg2.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative
+}
+
+.aside-ld-download .ld-bg {
+    background: url(https://res.ldmnq.com/gw/assets/images/05/aside/aside-bg.png) no-repeat
+}
+
+.aside-ld-download .aside-download-btn {
+    display: block;
+    width: 100%;
+    height: .63rem;
+    position: absolute;
+    bottom: -.05rem;
+    left: 0
+}
+
+.aside-ld-download .ld-yun-download {
+    display: block;
+    width: 100%;
+    height: .63rem;
+    position: absolute;
+    bottom: -.2rem;
+    left: -.1rem
+}
+
+.aside-ld-download .aside-download-btn:hover {
+    -webkit-animation: jump 1s infinite;
+    animation: jump 1s infinite
+}
+
+.aside-ld-download .ld-yun-download:hover {
+    -webkit-animation: jump-ld 1s infinite;
+    animation: jump-ld 1s infinite
+}
+
+.aside-ld-download .left {
+    position: absolute;
+    left: -.4rem;
+    top: .4rem;
+    width: .94rem;
+    height: .63rem;
+    -webkit-animation: leftjump 1.5s infinite;
+    animation: leftjump 1.5s infinite
+}
+
+.aside-ld-download .right {
+    width: 1.12rem;
+    height: .65rem;
+    position: absolute;
+    top: .65rem;
+    right: -.5rem;
+    -webkit-animation: rightjump 1.5s infinite;
+    animation: rightjump 1.5s infinite
+}
+
+@-webkit-keyframes leftjump {
+    0% {
+        left: -.4rem
+    }
+    50% {
+        left: -.5rem
+    }
+    100% {
+        left: -.4rem
+    }
+}
+
+@keyframes leftjump {
+    0% {
+        left: -.4rem
+    }
+    50% {
+        left: -.5rem
+    }
+    100% {
+        left: -.4rem
+    }
+}
+
+@-webkit-keyframes rightjump {
+    0% {
+        right: -.5rem
+    }
+    50% {
+        right: -.6rem
+    }
+    100% {
+        right: -.5rem
+    }
+}
+
+@keyframes rightjump {
+    0% {
+        right: -.5rem
+    }
+    50% {
+        right: -.6rem
+    }
+    100% {
+        right: -.5rem
+    }
+}
+
+@-webkit-keyframes jump {
+    0% {
+        bottom: -.05rem
+    }
+    50% {
+        bottom: .05rem
+    }
+    100% {
+        bottom: -.05rem
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: -.05rem
+    }
+    50% {
+        bottom: .05rem
+    }
+    100% {
+        bottom: -.05rem
+    }
+}
+
+@-webkit-keyframes jump-ld {
+    0% {
+        bottom: -.02rem
+    }
+    50% {
+        bottom: -.1rem
+    }
+    100% {
+        bottom: -.02rem
+    }
+}
+
+@keyframes jump-ld {
+    0% {
+        bottom: -.02rem
+    }
+    50% {
+        bottom: -.1rem
+    }
+    100% {
+        bottom: -.02rem
+    }
+}
+
+.aside-ld-download .close {
+    width: .23rem;
+    height: .23rem;
+    position: absolute;
+    top: -.07rem;
+    right: -.2rem;
+    cursor: pointer
+}
+
+.aside-ld-download .aside-download-btn img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto
+}
+
+.aside-ld-download .ld-yun-download img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto
+}
+
+footer {
+    clear: both;
+    margin-top: .8rem;
+    width: 100%;
+    background: #131313;
+    color: #6f6f6f;
+    font-size: .12rem;
+    padding-top: .35rem;
+    position: relative
+}
+
+footer .youqing {
+    text-align: center;
+    color: #f5c61e;
+    margin-bottom: .05rem
+}
+
+footer .youqing-one {
+    width: 14.4rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: .2rem;
+    border-bottom: 1px solid #252525;
+    margin-bottom: .3rem
+}
+
+footer .youqing-one a {
+    line-height: .24rem;
+    margin-right: .2rem
+}
+
+footer .youqing-one a:hover {
+    color: #fff
+}
+
+footer a {
+    color: #868585
+}
+
+footer .bottom {
+    height: 2.1rem;
+    width: 14.4rem;
+    margin: 0 auto;
+    font-size: .12rem;
+    border-bottom: 1px solid #252525;
+    color: #868585
+}
+
+footer .bottom .des {
+    line-height: .18rem;
+    float: left;
+    width: 7rem
+}
+
+footer .bottom > div a {
+    color: #868585
+}
+
+footer .bottomImg {
+    padding-top: .3rem;
+    padding-bottom: .2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+footer .bottomImg img {
+    height: .3rem
+}
+
+footer .bottomImg a {
+    margin-right: .2rem
+}
+
+footer .bottomImg .police {
+    width: .16rem;
+    height: .18rem;
+    vertical-align: text-top
+}
+
+footer .bottom .new-app {
+    float: left;
+    width: 3.7rem
+}
+
+footer .bottom .new-app .head-line {
+    color: #fff;
+    font-size: .14rem;
+    margin-bottom: .06rem
+}
+
+footer .bottom .new-app ul a {
+    line-height: .24rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+footer .bottom .new-app ul a:hover {
+    color: #fff
+}
+
+@media (min-width: 998) {
+    html {
+        font-size: 70px
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 75px
+    }
+}
+
+@media (min-width: 1400px) {
+    html {
+        font-size: 90px
+    }
+}
+
+@media (min-width: 1600px) {
+    html {
+        font-size: 100px
+    }
+}
