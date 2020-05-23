@@ -580,9 +580,12 @@ header {
 }
 
 .aboutLD .top {
-    min-height: 1.85rem;
+/*   min-height: 1.85rem;
     padding-left: 6.64rem;
-    padding-top: .5rem
+    padding-top: .5rem*/
+}
+.xixi {
+    padding-left: 6.64rem;
 }
 
 .aboutLD .top .msg {

@@ -220,22 +220,22 @@ header {
 }
 
 .banner .bannerImg1 {
-    background-image: url(https://res.ldmnq.com/gw/assets/images/05/phonebanner1.jpg);
+    background-image: url(./picture/banner2.png);
     background-size: 100% 100%
 }
 
 .banner .bannerImg2 {
-    background-image: url(https://res.ldmnq.com/gw/assets/images/05/phonebanner2.jpg);
+    background-image: url(./picture/banner2.png);
     background-size: 100% 100%
 }
 
 .banner .bannerImg3 {
-    background-image: url(https://res.ldmnq.com/gw/assets/images/05/phonebanner3_cn.jpg);
+    background-image: url(./picture/banner2.png);
     background-size: 100% 100%
 }
 
 .banner .bannerImg4 {
-    background-image: url(https://res.ldmnq.com/gw/assets/images/05/phonebanner4.jpg);
+    background-image: url(./picture/banner2.png);
     background-size: 100% 100%
 }
 

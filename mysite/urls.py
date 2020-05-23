@@ -22,6 +22,7 @@ from . import views
 urlpatterns = [
     #隐藏主页
     #path('', views.home, name='home'),
+    path('', include('skin_box.urls')),    #替换成盒子的主页
     path('home/', views.home, name='home'),
     path('admin/', admin.site.urls),
     path('ckeditor', include('ckeditor_uploader.urls')),
